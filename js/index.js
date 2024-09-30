@@ -1,3 +1,26 @@
+let clave;
+
+let intentos = 0 ;
+const MAX_INTENTOS = 3 ;
+
+    do{
+        clave=prompt("ingresa la contraseña");
+        intentos ++;
+
+        if(clave === "recordatorio123" ){
+            console.log("contraseña correcta")
+            break;
+        }
+
+        if(intentos >= MAX_INTENTOS){
+            console.log("la cantidad de intentos se alcanzo")
+            break;
+        }
+    
+        alert("contraseña incorrecta")
+        
+    }while(true);
+    
 
 let recordatori =prompt("ingresar un recordatorio ");
 let diaDelRecordatorio =prompt ("ingresar dia del recordatorio ");
