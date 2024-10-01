@@ -4,8 +4,11 @@
     padding: 0;
     box-sizing: border-box; }
 
+    main{
+        background-color: initial;
+    }
+
     h1{
         text-align: center;
-        background-color: rgb(255, 0, 0);
-        color: white;
+        color: red;
     }
